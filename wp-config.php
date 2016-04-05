@@ -27,13 +27,13 @@ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 
 // Global DB config
 if (!defined('DB_NAME')) {
-	define('DB_NAME', 'brandpro_qO2X23H');
+	define('DB_NAME', '');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'brandpro_tb4EbCD');
+	define('DB_USER', '');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', '{UY=:vM\9]<"*:E)dnQ;N[=?6$p!s');
+	define('DB_PASSWORD', '');
 }
 if (!defined('DB_HOST')) {
 	define('DB_HOST', 'localhost');
@@ -58,14 +58,14 @@ if (!defined('DB_COLLATE')) {
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '&3.+h.uS4DWS|EwWttcH+}ceLYM2N46^|(BFO%z>]iDsqceawn4kS26o5.X|9Irc');
-define('SECURE_AUTH_KEY',  '[ri~G]l{Z-is~.K|IrBRT+A0]|u|@j`g&MLd#{I=!Q.6=Y}jIg3mcPiLUys^Fr~t');
-define('LOGGED_IN_KEY',    'T}:KE)X$Hv8Y6Ch+,X-tX]g4t<b@$hqs+T>--7uhC8El+_iqumOY[-AL$Gj#@{.`');
-define('NONCE_KEY',        'Kyw[.oiuz*dO%JU$<9Og0+sdDi2p+JXE&Y$u,:Bm|9d-l;aCre7hn%XzD8)W$?1D');
-define('AUTH_SALT',        'LoAMBzrA+WuAFtt?!|NUBAU}o+[GuG^?J{8Tdi#8zA.uxKD>nk9RdxPdoAkvc#76');
-define('SECURE_AUTH_SALT', '3%;BX8wlY|EAL##aigH[k;%}w61eGLZ]GKWz5HGk&Tc6v!jdw2<HT5r{aK1|A[K-');
-define('LOGGED_IN_SALT',   '#<Bsgu`{xQuIljUUT{4V_|@`jJn>uvVu@ Snr^hQ2#kHR`[n F|oK=2Ll+~W?&w1');
-define('NONCE_SALT',       'P~n :1bdxbvOK<`Pwf*BL[DGPQ9`+B!;jU|3#clFBb-Q.<Y[(Ob~9LM++/O;&[:=');
+define('AUTH_KEY',         '');
+define('SECURE_AUTH_KEY',  '');
+define('LOGGED_IN_KEY',    '');
+define('NONCE_KEY',        '');
+define('AUTH_SALT',        '');
+define('SECURE_AUTH_SALT', '');
+define('LOGGED_IN_SALT',   '');
+define('NONCE_SALT',       '');
 define( ‘DISALLOW_FILE_EDIT’, true );
 /**#@-*/
 
@@ -75,7 +75,7 @@ define( ‘DISALLOW_FILE_EDIT’, true );
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'kcqe3SOM1SE_'; // <-- GENERATE A RANDOM PREFIX
+$table_prefix  = 'prefix_'; // <-- GENERATE A RANDOM PREFIX
 /**#@+
 * {@link http://passwordsgenerator.net/ WordPress.org secret-key service}
 */
