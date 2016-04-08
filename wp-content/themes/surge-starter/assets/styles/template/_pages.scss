@@ -1,0 +1,33 @@
+/*=================================
+=            Home Page            =
+=================================*/
+#hero-section {
+	$height:100vh;
+	 
+	#carousel {
+		padding-left: 0 ;
+		padding-right: 0 ;
+		height:$height;
+		#hero-text {
+		position: absolute;
+		top:0px;
+		z-index: 999;
+		margin: 11em;
+		h1 {
+			color:$white;
+			text-transform: uppercase;
+		}
+		
+		}
+		.item {
+			height:$height;
+			margin: 0px !important;
+			img {
+				margin: 0 !important;
+			}
+		}
+	}
+	.photo-block {
+		height:$height/2;
+	}
+}

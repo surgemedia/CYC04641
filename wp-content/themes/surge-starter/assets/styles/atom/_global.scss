@@ -1,1 +1,28 @@
+body {
+	font-size:10px;
+	font-family:$font-family;
+}
 
+h1,.h1 { font-size:6em; font-weight:$bold; }
+h2,.h2 {  font-size:6em; font-weight:$light; }
+h3,.h3 {  font-size:3.6em; font-weight:$bold; }
+
+p,.p { font-size:2.1em; font-weight:normal;}
+
+a,.a {
+	color:$color2;
+	font-size:2.1em;
+	&:hover {
+		color:rgba($color2,0.5);
+	}
+}
+
+.bg-red {
+	background-color:$red;
+}
+.bg-black {
+	background-color:$black;
+}
+.bg-white {
+	background-color:$white;
+}

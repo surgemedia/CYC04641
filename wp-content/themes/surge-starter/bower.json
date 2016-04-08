@@ -7,9 +7,17 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "bootstrap-sass": "3.3.6",
+    "fullcalendar": "^2.6.1"
   },
   "overrides": {
+    "fullcalendar": {
+      "main":[
+        "./dist/fullcalendar.min.css",
+        "./dist/fullcalendar.print.css",
+        "./dist/fullcalendar.min.js"
+        ]
+      },
     "bootstrap-sass": {
       "main": [
         "./assets/stylesheets/_bootstrap.scss",
