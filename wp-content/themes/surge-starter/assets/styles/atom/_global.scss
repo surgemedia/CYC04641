@@ -26,3 +26,7 @@ a,.a {
 .bg-white {
 	background-color:$white;
 }
+
+.pattern {
+	background-image:url($pattern);
+}

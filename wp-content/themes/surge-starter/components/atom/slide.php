@@ -1,5 +1,5 @@
  <?php 
- 	$vars['image'] = aq_resize($vars[0],1300,1050,true,true,true);
+ 	$vars['image'] = $vars[0];
     $vars['class'] = $vars[1];
 
   ?>

@@ -11,8 +11,9 @@
 		#hero-text {
 		position: absolute;
 		top:0px;
-		z-index: 999;
+		//z-index: 1;
 		margin: 11em;
+		width:50%;
 		h1 {
 			color:$white;
 			text-transform: uppercase;
@@ -29,5 +30,88 @@
 	}
 	.photo-block {
 		height:$height/2;
+	}
+}
+.modal {
+	.carousel-inner {
+		background:#000;
+		img {
+			margin: 0 auto;
+		}
+	}
+}
+
+#ourTeam {
+	padding:4em;
+	color:$white;
+	@extend .pattern;
+	h1 {
+		@extend .h2;
+		text-transform: uppercase;
+	}
+	h1,p {
+		color:$white;
+	}
+} 
+#sponsors {
+	padding-top:5em;
+	padding-bottom:10em;
+	h2 {
+		text-transform: uppercase;
+	}
+
+}
+
+#contact {
+	padding-top:5em;
+	padding-bottom:5em;
+	overflow:hiddenr;
+	background-size:cover;
+	h2,p {
+		color:$white;
+	}
+	input,textarea {
+		border:3px solid #efefef;
+		line-height: 1em;
+		font-size:2em;
+		padding:0.4em;
+	}
+	.gfield_required {
+		display:none;
+	}
+	.gform_button.button {
+		@extend .btn;
+		padding:0.1em 1em;
+		float:right;
+		margin:0px 15px;
+	}
+	.validation_error {
+		color:$red;
+		border-top: 0px solid transparent;
+	    border-bottom: 0px solid transparent;
+		width:100%;
+		margin-bottom: 0px !important;
+	}
+	.gfield.gfield_error {
+		background-color: transparent;
+	    border-top: 0px solid transparent;
+	    border-bottom: 0px solid transparent;
+		margin: 0px;
+		width:100%;
+		color:$red;
+			input {
+				width:100%;
+			}
+		.gfield_description {
+			color:$red;
+		}
+		div.ginput_container {
+			margin: 0px;
+			width:100%;
+			color:$red;
+			input {
+				width:100%;
+			}
+		}
 	}
 }

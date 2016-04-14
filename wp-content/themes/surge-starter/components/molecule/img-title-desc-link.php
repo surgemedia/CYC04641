@@ -6,6 +6,11 @@
     $vars['link_location'] =  $vars[4];
     $vars['link_text2'] =  $vars[5];
     $vars['link_location2'] =  $vars[6];
+    $vars['target'] = NULL;
+
+    if(strlen($vars['link_text2'])){
+        $vars['target'] = '_blank';
+    }
 
    ?>
 <div class="col-md-4 photo-block text-center" style="background-image:url(<?php echo $vars['img'] ?>)">
@@ -13,11 +18,11 @@
             <p>
             <?php echo $vars['description']; ?>
             </p>
-            <a class="btn view" href="<?php echo  $vars['link_location']; ?>">
+            <a <?php if($vars['link_text2'] != NULL){ echo 'target="_blank"';} ?> class="btn view" href="<?php echo $vars['link_location']; ?>">
                <?php echo $vars['link_text']; ?>
             </a>
             <?php if(strlen($vars['link_text2']) > 0){ ?>
-             <a class="btn view" href="<?php echo  $vars['link_location2']; ?>">
+             <a class="btn view" target="<?php echo $vars['target']; ?>" href="<?php echo  $vars['link_location2']; ?>">
                <?php echo $vars['link_text2']; ?>
             </a>
 			<?php } ?>

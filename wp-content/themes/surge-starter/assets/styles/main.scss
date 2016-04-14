@@ -9,11 +9,19 @@
 @import "atom/global";
 
 @import "atom/buttons";
+@import "atom/sponser-logo";
+
+
+
 @import "molecule/comments";
 @import "molecule/forms";
 @import "molecule/grid";
 @import "molecule/wp-classes";
 @import "molecule/carousel-fade";
+@import "molecule/team-item";
+@import "molecule/photo-block";
+
+
 
 @import "template/header";
 @import "template/sidebar";
@@ -21,3 +29,28 @@
 @import "template/pages";
 @import "template/posts";
 @import "template/tinymce";
+
+@media (max-width: $screen-sm-max) {
+	@import "res/_res-xs-sm.scss";
+}
+@media (max-width: $screen-xs-max) {
+	@import "res/_res-xs.scss";
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	@import "res/_res-sm.scss";
+}
+@media (min-width: $screen-md-min) {
+	@import "res/_res-md-lg.scss";
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	@import "res/_res-md.scss";
+}
+@media (min-width: $screen-lg-min) {
+	@import "res/_res-lg.scss";
+}
+@media (min-width: $screen-lg-min) and (max-width: 1439px) {
+	@import "res/_res-lg-1440.scss";
+}
+@media (min-width: 1440px){
+	@import "res/_res-1440.scss";
+}

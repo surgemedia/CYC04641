@@ -1,0 +1,19 @@
+.photo-block {
+	background-size:cover;
+	h2 {
+		margin-top: 1.5em;
+		font-size:5.8em;
+		color:#fff;
+		text-transform: uppercase;
+	}
+	p {
+		color:#fff;
+	}
+	a {
+		width:80%;
+	}
+	a + a {
+		width:80%;
+		margin-top: .5em;
+	}
+}

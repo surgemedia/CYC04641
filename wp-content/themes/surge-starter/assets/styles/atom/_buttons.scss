@@ -3,9 +3,10 @@
 	font-size:3.6em;
 	color:$color2;
 	border-radius:0px;
-	border:2px solid $white;
+	border:3px solid $white;
 	text-transform: uppercase;
 	padding:0.3em 1em;
+	font-weight:$light;
 	&:hover {
 		background:$color1;
 		color:$color2;

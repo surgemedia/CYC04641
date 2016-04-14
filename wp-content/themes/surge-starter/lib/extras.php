@@ -45,6 +45,8 @@ $custom_includes = [
   'lib/function-get-featured-image-url.php',    // Scripts and stylesheets
   'lib/function-truncate-content.php',    // Scripts and stylesheets
   'lib/function-addComponent.php',    // Scripts and stylesheets
+  'lib/acf-option-page.php',    // Scripts and stylesheets
+
   
   'lib/post-type-team.php',
   'lib/post-type-sponsor.php',
@@ -60,7 +62,5 @@ foreach ($custom_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
-
-
 
 

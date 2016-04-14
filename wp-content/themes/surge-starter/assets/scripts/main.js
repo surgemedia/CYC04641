@@ -74,4 +74,25 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+/*===============================
+=            Sliders            =
+===============================*/
+// $('.carousel').carousel()
+
+function revealPanel(){
+  var parent;
+  $( ".team-item a.view" ).click(function( event ) {
+  event.preventDefault();
+  parent = $(this).data('parent');
+    $(".team-item .header").removeClass('expanded');
+    $('#'+parent+" .header").addClass('expanded');
+  });
+  $( ".team-item a.close-btn" ).click(function( event ) { 
+  event.preventDefault();
+  $(".team-item .header").removeClass('expanded');
+});
+}
+revealPanel();
+
 })(jQuery); // Fully reference jQuery after this point.
+  

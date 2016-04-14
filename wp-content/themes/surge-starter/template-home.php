@@ -3,21 +3,29 @@
  * Template Name: Home Template
  */
 ?>
+<?php 
+
+
+ ?>
 <?php while (have_posts()) : the_post(); ?>
 <div id="hero-section" class="row">
-      <?php 
+        <?php 
+            // menu in molecule/carousel
+            //view gallery panel & menu
 			addComponent([
 					'template' => 'molecule/carousel',
 					'vars' => [
 								get_field('jumbotron_title'), //title
 								get_field('jumbotron_link'), //link text
-								get_field('jumbotron_link_location'), //link text
 								get_field('Jumbotron'), //repeater
 								]
 			]);
        ?>
-
-		<?php 
+        <?php 
+            addComponent([
+                    'template' => 'molecule/carousel-modal',
+                    'vars' => [ get_field('gallery') ]]);
+            //photo blocks
 			addComponent([
 					'template' => 'molecule/img-title-desc-link',
 					'vars' => [
@@ -28,6 +36,7 @@
 								'#sponsors'
 								]
 			]);
+            //photo blocks
 			addComponent([
 					'template' => 'molecule/img-title-desc-link',
 					'vars' => [
@@ -42,122 +51,147 @@
 			]);
        ?>
 </div>
-<div class="row" id="ourteam">
-<div class="bg-red">
-    <div class="container text-center">
-        <h1>
-            Our Team
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae officia, est illum. Similique quasi quidem blanditiis libero earum, fugit laudantium, eaque, praesentium doloribus enim et. Architecto alias vitae quaerat atque?
-        </p>
-    </div>
+<div class="row">
+<div id="ourTeam" class="bg-red">
+    <?php 
+    //Title Blurb
+    addComponent([
+                    'template' => 'molecule/title-blurb',
+                    'vars' => [
+                            'ourTeamTitle',
+                            'container text-center',
+                            get_field('red_section_title'),
+                            get_field('red_section_blurb'),
+                              ]
+                ]);
+     ?>
    </div>
-    <div class="col-md-4 img-title-subtitle text-center" style="background-image:url(https://unsplash.it/500/500
-)">
-        <h1>
-            Liz Young
-        </h1>
-        <a class="view" href="">
-            View Profile
-        </a>
-    </div>
-    <div class="col-md-4 img-title-subtitle text-center" style="background-image:url(https://unsplash.it/500/500
-)">
-        <h1>
-            Liz Young
-        </h1>
-        <a class="view" href="">
-            View Profile
-        </a>
-    </div>
-    <div class="col-md-4 img-title-subtitle text-center" style="background-image:url(https://unsplash.it/500/500
-)">
-        <h1>
-            Liz Young
-        </h1>
-        <a class="view" href="">
-            View Profile
-        </a>
-    </div>
-    <div class="col-md-4 img-title-subtitle text-center" style="background-image:url(https://unsplash.it/500/500
-)">
-        <h1>
-            Liz Young
-        </h1>
-        <a class="view" href="">
-            View Profile
-        </a>
-    </div>
+   <?php 
+        // WP_Query arguments
+        $args = array (
+            'post_type'              => array( 'people' ),
+            'post__in'              => get_field('our_team'),
+
+        );
+        // The Query
+        $team_query = new WP_Query( $args );
+        // The Loop
+        if ( $team_query->have_posts() ) {
+            while ( $team_query->have_posts() ) {
+                $team_query->the_post();
+                //team members
+                addComponent([
+                                'template' => 'molecule/profile-img-title-link',
+                                'vars' => [
+                                        get_the_id().'teamMember',
+                                        'col-md-4 text-center team-item',
+                                        getFeaturedUrl(get_the_id()),
+                                        get_the_title(),
+                                        get_the_content(),
+                                            ] 
+                                            ]);
+            }
+        } else { /* no posts */ }
+        wp_reset_postdata();
+        $spacer_class = 'col-md-8';
+        switch (sizeof(get_field('our_team'))) {
+             case 1:
+                  addComponent([
+                                'template' => 'molecule/spacer',
+                                'vars' => ['col-md-8 text-center',
+                                            get_field('team_placeholder_image','option'),
+                                            get_field('team_placeholder_blurb','option'),
+
+                                            ] 
+                                ]);
+                break;
+            case 2:
+                 addComponent([
+                                'template' => 'molecule/spacer',
+                                'vars' => ['col-md-4 text-center',
+                                             get_field('team_placeholder_image','option'),
+                                            get_field('team_placeholder_blurb','option'),
+                                            ]  
+                                ]);
+                break;
+            case 4:
+                 addComponent([
+                                'template' => 'molecule/spacer',
+                                'vars' => ['col-md-8 text-center',
+                                             get_field('team_placeholder_image','option'),
+                                            get_field('team_placeholder_blurb','option'),
+                                            ]  
+                                ]);
+                break;
+            case 5:
+                addComponent([
+                                'template' => 'molecule/spacer',
+                                'vars' => ['col-md-4 text-center',
+                                             get_field('team_placeholder_image','option'),
+                                            get_field('team_placeholder_blurb','option'),
+                                            ]  
+                                ]);
+                break;
+
+            default:
+                break;
+        }
+        
+    ?>
+    
 </div>
 <div class="row" style="background-image:url(<?php echo get_field('sponsor_image') ?>)">
 <section class="text-center" id="sponsors" >
-    <h1>
-        Sponsors
-    </h1>
+    <h2>
+        <?php echo get_field('sponsor_section_title') ?>
+    </h2>
     <p class="container">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minus porro quaerat iure vel ut blanditiis, placeat mollitia. Iusto atque tempora necessitatibus quibusdam laboriosam expedita. Eius ad illo, in accusantium.
+      <?php echo get_field('sponsor_section_blurb') ?>
     </p>
     <div class="container">
         <ul class="list-inline">
-            <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-            <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-            <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-           <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-            <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-           <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-           <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-            <li class="col-md-3">
-                <img alt="" src="https://unsplash.it/200/100">
-                    <small>
-                    </small>
-                </img>
-            </li>
-  </ul>
+        
+<?php 
+        // WP_Query arguments
+        $args = array (
+            'post_type'              => array( 'sponsor' ),
+            'post__in'              => get_field('sponsors'),
+
+        );
+
+        // The Query
+        $spon_query = new WP_Query( $args );
+
+        // The Loop
+        if ( $spon_query->have_posts() ) {
+            while ( $spon_query->have_posts() ) {
+                $spon_query->the_post();
+                //team members
+                addComponent([
+                                'template' => 'atom/sponser-item',
+                                'vars' => [
+                                            '',
+                                            'sponsor-item col-md-3',
+                                            getFeaturedUrl(get_the_id()),
+                                            get_the_title(),
+                                            get_field('type_of_sponser'),
+                                 ] ]); }
+        } else {  }
+        // Restore original Post Data
+        wp_reset_postdata();
+    ?>
     </div>
-    </div>
-</section>
-<section id="contact" style="background-image:url(https://unsplash.it/1920/1080)">
+    </section>
+ </div>
+<div class="row">
+<section id="contact" style="background-image:url(<?php echo get_field('form_background') ?>)">
 	<div class="container text-center">
+        <div class="col-md-6 col-md-offset-3">
 		<h2><?php echo get_field('form_title'); ?></h2>
 		<p><?php echo get_field('form_description'); ?></p>
-		<?php displayGravityForm(get_field('form')) ?>
+        <?php displayGravityForm(get_field('form')) ?>
+        </div>
 	</div>
 </section>
-
+</div>
 <?php endwhile; ?>

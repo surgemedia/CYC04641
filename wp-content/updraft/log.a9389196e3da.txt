@@ -1,0 +1,421 @@
+0000.001 (0) Opened log file at time: Wed, 13 Apr 2016 01:53:18 +0000 on http://192.168.0.6/cyc04641
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.4.2 PHP: 5.5.9-1ubuntu4.14 (Linux surge-iMac 3.19.0-51-generic #58~14.04.1-Ubuntu SMP Fri Feb 26 22:02:58 UTC 2016 x86_64) MySQL: 5.5.44 WPLANG:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.8M | 4M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 175014.5 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.042 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.046 (0) Set semaphore last lock (fd) time to 2016-04-13 01:53:18
+0000.048 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=a9389196e3da, begun at=1460512398 (0s ago), job type=backup
+0000.057 (0) Scheduling a resumption (1) after 300 seconds (1460512698) in case this run gets aborted
+0000.098 (0) Checking if we have a zip executable available
+0000.100 (0) Testing: /usr/bin/zip
+0000.110 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.112 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.114 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.115 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.116 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.127 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.128 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.131 (0) Working binary zip found: /usr/bin/zip
+0000.133 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.135 (0) Creation of backups of directories: beginning
+0000.141 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.664 (0) Total entities for the zip file: 215 directories, 1399 files (0 skipped as non-modified), 23.4 MB
+0000.670 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.674 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.680 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.683 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.688 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.689 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.4 MB, 1399 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.441 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: size is now: 5.80 MB
+0003.447 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 600 files added (on-disk size: 5914.2 KB)
+0003.451 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 700 files added (on-disk size: 5914.2 KB)
+0003.456 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 800 files added (on-disk size: 5914.2 KB)
+0003.459 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 900 files added (on-disk size: 5914.2 KB)
+0003.462 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 1000 files added (on-disk size: 5914.2 KB)
+0003.463 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 1399 files batched, 501 (1002) added so far); re-opening (prior size: 5914.2 KB)
+0004.061 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 1100 files added (on-disk size: 6589.5 KB)
+0004.065 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 1200 files added (on-disk size: 6589.5 KB)
+0004.070 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: 1300 files added (on-disk size: 6589.5 KB)
+0004.957 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip.tmp: size is now: 7.90 MB
+0005.051 (0) Created plugins zip (0) - 8110.9 KB in 4.9 s (1652.7 KB/s) (SHA1 checksum: ac313f96fe0191b2905878d20b44e7be675dd77d)
+0005.054 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.845 (0) Total entities for the zip file: 2575 directories, 15610 files (0 skipped as non-modified), 117.5 MB
+0010.860 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.944 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: size is now: 0.60 MB
+0010.952 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 100 files added (on-disk size: 620.6 KB)
+0010.956 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 200 files added (on-disk size: 620.6 KB)
+0010.961 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 300 files added (on-disk size: 620.6 KB)
+0010.965 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 400 files added (on-disk size: 620.6 KB)
+0010.968 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 500 files added (on-disk size: 620.6 KB)
+0010.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.8 MB, 15610 files batched, 501 (502) added so far); re-opening (prior size: 620.6 KB)
+0012.496 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: size is now: 6.40 MB
+0012.501 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 600 files added (on-disk size: 6567.5 KB)
+0012.505 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 700 files added (on-disk size: 6567.5 KB)
+0012.508 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 800 files added (on-disk size: 6567.5 KB)
+0012.512 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 900 files added (on-disk size: 6567.5 KB)
+0012.515 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1000 files added (on-disk size: 6567.5 KB)
+0012.517 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 15610 files batched, 501 (1003) added so far); re-opening (prior size: 6567.5 KB)
+0013.706 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: size is now: 10.60 MB
+0013.718 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1100 files added (on-disk size: 10851.3 KB)
+0013.723 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1200 files added (on-disk size: 10851.3 KB)
+0013.727 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1300 files added (on-disk size: 10851.3 KB)
+0013.730 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1400 files added (on-disk size: 10851.3 KB)
+0013.732 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/gifsicle/cli.js
+0013.732 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/wiredep/wiredep-cli.js
+0013.732 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/wiredep/node_modules/supports-color/cli.js
+0013.732 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/wiredep/node_modules/has-ansi/cli.js
+0013.732 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1500 files added (on-disk size: 10851.3 KB)
+0013.734 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 15610 files batched, 501 (1504) added so far); re-opening (prior size: 10851.3 KB)
+0017.688 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: size is now: 15.90 MB
+0017.696 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1600 files added (on-disk size: 16258.9 KB)
+0017.700 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1700 files added (on-disk size: 16258.9 KB)
+0017.702 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/jpegtran-bin/cli.js
+0017.705 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1800 files added (on-disk size: 16258.9 KB)
+0017.708 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 1900 files added (on-disk size: 16258.9 KB)
+0017.709 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/user-home/cli.js
+0017.711 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2000 files added (on-disk size: 16258.9 KB)
+0017.712 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 15610 files batched, 501 (2005) added so far); re-opening (prior size: 16258.9 KB)
+0020.685 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2100 files added (on-disk size: 17754.4 KB)
+0020.687 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2200 files added (on-disk size: 17754.4 KB)
+0020.690 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2300 files added (on-disk size: 17754.4 KB)
+0020.693 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2400 files added (on-disk size: 17754.4 KB)
+0020.696 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2500 files added (on-disk size: 17754.4 KB)
+0020.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 15610 files batched, 501 (2506) added so far); re-opening (prior size: 17754.4 KB)
+0022.772 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2600 files added (on-disk size: 19124.5 KB)
+0022.776 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2700 files added (on-disk size: 19124.5 KB)
+0022.781 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2800 files added (on-disk size: 19124.5 KB)
+0022.785 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 2900 files added (on-disk size: 19124.5 KB)
+0022.790 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3000 files added (on-disk size: 19124.5 KB)
+0022.791 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 15610 files batched, 501 (3007) added so far); re-opening (prior size: 19124.5 KB)
+0023.937 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/dev-ip/lib/dev-ip.js
+0023.937 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/which/bin/which
+0023.938 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3100 files added (on-disk size: 19658.7 KB)
+0023.942 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3200 files added (on-disk size: 19658.7 KB)
+0023.945 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3300 files added (on-disk size: 19658.7 KB)
+0023.948 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3400 files added (on-disk size: 19658.7 KB)
+0023.952 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3500 files added (on-disk size: 19658.7 KB)
+0023.954 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/autoprefixer/node_modules/browserslist/cli.js
+0023.954 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 15610 files batched, 501 (3508) added so far); re-opening (prior size: 19658.7 KB)
+0026.692 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3600 files added (on-disk size: 20614.4 KB)
+0026.695 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3700 files added (on-disk size: 20614.4 KB)
+0026.699 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/shelljs/bin/shjs
+0026.699 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3800 files added (on-disk size: 20614.4 KB)
+0026.703 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/nopt/bin/nopt.js
+0026.703 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 3900 files added (on-disk size: 20614.4 KB)
+0026.706 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/repeating/cli.js
+0026.706 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/strip-dirs/cli.js
+0026.707 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/rimraf/bin.js
+0026.708 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4000 files added (on-disk size: 20614.4 KB)
+0026.711 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 15610 files batched, 501 (4009) added so far); re-opening (prior size: 20614.4 KB)
+0029.271 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/strip-indent/cli.js
+0029.271 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4100 files added (on-disk size: 21939.8 KB)
+0029.275 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4200 files added (on-disk size: 21939.8 KB)
+0029.278 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4300 files added (on-disk size: 21939.8 KB)
+0029.281 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4400 files added (on-disk size: 21939.8 KB)
+0029.285 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4500 files added (on-disk size: 21939.8 KB)
+0029.288 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.1 MB, 15610 files batched, 501 (4510) added so far); re-opening (prior size: 21939.8 KB)
+0030.952 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4600 files added (on-disk size: 22413.4 KB)
+0030.956 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4700 files added (on-disk size: 22413.4 KB)
+0030.959 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4800 files added (on-disk size: 22413.4 KB)
+0030.963 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 4900 files added (on-disk size: 22413.4 KB)
+0030.966 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5000 files added (on-disk size: 22413.4 KB)
+0030.968 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 15610 files batched, 501 (5011) added so far); re-opening (prior size: 22413.4 KB)
+0033.753 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/sass-graph/bin/sassgraph
+0033.755 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5100 files added (on-disk size: 23505.9 KB)
+0033.760 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5200 files added (on-disk size: 23505.9 KB)
+0033.765 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5300 files added (on-disk size: 23505.9 KB)
+0033.769 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5400 files added (on-disk size: 23505.9 KB)
+0033.774 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5500 files added (on-disk size: 23505.9 KB)
+0033.776 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 MB, 15610 files batched, 501 (5512) added so far); re-opening (prior size: 23505.9 KB)
+0034.709 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5600 files added (on-disk size: 23762.5 KB)
+0034.712 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5700 files added (on-disk size: 23762.5 KB)
+0034.715 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5800 files added (on-disk size: 23762.5 KB)
+0034.718 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 5900 files added (on-disk size: 23762.5 KB)
+0034.721 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6000 files added (on-disk size: 23762.5 KB)
+0034.723 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15610 files batched, 501 (6013) added so far); re-opening (prior size: 23762.5 KB)
+0036.477 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6100 files added (on-disk size: 24264.9 KB)
+0036.479 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/gulp/bin/gulp.js
+0036.481 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6200 files added (on-disk size: 24264.9 KB)
+0036.484 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6300 files added (on-disk size: 24264.9 KB)
+0036.487 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6400 files added (on-disk size: 24264.9 KB)
+0036.489 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/uglify-js/bin/uglifyjs
+0036.491 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6500 files added (on-disk size: 24264.9 KB)
+0036.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 15610 files batched, 501 (6514) added so far); re-opening (prior size: 24264.9 KB)
+0039.418 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6600 files added (on-disk size: 25364.2 KB)
+0039.423 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6700 files added (on-disk size: 25364.2 KB)
+0039.426 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6800 files added (on-disk size: 25364.2 KB)
+0039.429 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 6900 files added (on-disk size: 25364.2 KB)
+0039.431 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/strip-json-comments/cli.js
+0039.431 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/pretty-bytes/cli.js
+0039.432 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7000 files added (on-disk size: 25364.2 KB)
+0039.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15610 files batched, 501 (7015) added so far); re-opening (prior size: 25364.2 KB)
+0041.681 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7100 files added (on-disk size: 25888.1 KB)
+0041.684 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7200 files added (on-disk size: 25888.1 KB)
+0041.687 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7300 files added (on-disk size: 25888.1 KB)
+0041.688 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/dateformat/bin/cli.js
+0041.689 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/semver/bin/semver
+0041.690 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/browser-sync/bin/browser-sync.js
+0041.690 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7400 files added (on-disk size: 25888.1 KB)
+0041.693 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7500 files added (on-disk size: 25888.1 KB)
+0041.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 15610 files batched, 501 (7516) added so far); re-opening (prior size: 25888.1 KB)
+0044.351 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/executable/cli.js
+0044.352 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7600 files added (on-disk size: 26806.3 KB)
+0044.356 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7700 files added (on-disk size: 26806.3 KB)
+0044.358 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7800 files added (on-disk size: 26806.3 KB)
+0044.360 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 7900 files added (on-disk size: 26806.3 KB)
+0044.363 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8000 files added (on-disk size: 26806.3 KB)
+0044.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 15610 files batched, 501 (8017) added so far); re-opening (prior size: 26806.3 KB)
+0047.638 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8100 files added (on-disk size: 27815.2 KB)
+0047.640 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/node-gyp/bin/node-gyp.js
+0047.641 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8200 files added (on-disk size: 27815.2 KB)
+0047.645 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8300 files added (on-disk size: 27815.2 KB)
+0047.647 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/jshint/bin/jshint
+0047.648 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8400 files added (on-disk size: 27815.2 KB)
+0047.650 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8500 files added (on-disk size: 27815.2 KB)
+0047.652 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 15610 files batched, 501 (8518) added so far); re-opening (prior size: 27815.2 KB)
+0051.219 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8600 files added (on-disk size: 29646 KB)
+0051.222 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8700 files added (on-disk size: 29646 KB)
+0051.226 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8800 files added (on-disk size: 29646 KB)
+0051.227 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/indent-string/cli.js
+0051.227 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/semver-truncate/node_modules/semver/bin/semver
+0051.228 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/csso/bin/csso
+0051.229 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 8900 files added (on-disk size: 29646 KB)
+0051.232 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9000 files added (on-disk size: 29646 KB)
+0051.233 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 15610 files batched, 501 (9019) added so far); re-opening (prior size: 29646 KB)
+0052.971 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/find-versions/cli.js
+0052.972 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/pngcrush-bin/cli.js
+0052.973 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9100 files added (on-disk size: 30303.3 KB)
+0052.977 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9200 files added (on-disk size: 30303.3 KB)
+0052.981 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9300 files added (on-disk size: 30303.3 KB)
+0052.982 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/svgo/bin/svgo
+0052.984 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9400 files added (on-disk size: 30303.3 KB)
+0052.989 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9500 files added (on-disk size: 30303.3 KB)
+0052.991 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 15610 files batched, 501 (9520) added so far); re-opening (prior size: 30303.3 KB)
+0055.237 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9600 files added (on-disk size: 31339.3 KB)
+0055.240 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/errno/cli.js
+0055.241 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9700 files added (on-disk size: 31339.3 KB)
+0055.245 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9800 files added (on-disk size: 31339.3 KB)
+0055.247 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/seek-bzip/bin/seek-bunzip
+0055.247 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/seek-bzip/bin/seek-bzip-table
+0055.249 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 9900 files added (on-disk size: 31339.3 KB)
+0055.255 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10000 files added (on-disk size: 31339.3 KB)
+0055.257 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 15610 files batched, 501 (10021) added so far); re-opening (prior size: 31339.3 KB)
+0058.365 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10100 files added (on-disk size: 32451.8 KB)
+0058.368 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10200 files added (on-disk size: 32451.8 KB)
+0058.372 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10300 files added (on-disk size: 32451.8 KB)
+0058.376 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10400 files added (on-disk size: 32451.8 KB)
+0058.378 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/weinre/weinre
+0058.380 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10500 files added (on-disk size: 32451.8 KB)
+0058.382 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 15610 files batched, 501 (10522) added so far); re-opening (prior size: 32451.8 KB)
+0060.138 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/foxy/cli.js
+0060.138 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/optipng-bin/cli.js
+0060.139 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10600 files added (on-disk size: 35170.8 KB)
+0060.143 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/node-uuid/bin/uuid
+0060.143 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/express/bin/express
+0060.144 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10700 files added (on-disk size: 35170.8 KB)
+0060.148 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10800 files added (on-disk size: 35170.8 KB)
+0060.152 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/localtunnel/bin/client
+0060.153 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 10900 files added (on-disk size: 35170.8 KB)
+0060.160 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11000 files added (on-disk size: 35170.8 KB)
+0060.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 15610 files batched, 501 (11023) added so far); re-opening (prior size: 35170.8 KB)
+0063.292 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11100 files added (on-disk size: 36184.2 KB)
+0063.297 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11200 files added (on-disk size: 36184.2 KB)
+0063.303 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11300 files added (on-disk size: 36184.2 KB)
+0063.309 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11400 files added (on-disk size: 36184.2 KB)
+0063.315 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11500 files added (on-disk size: 36184.2 KB)
+0063.318 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 15610 files batched, 501 (11524) added so far); re-opening (prior size: 36184.2 KB)
+0066.271 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11600 files added (on-disk size: 37414.2 KB)
+0066.274 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11700 files added (on-disk size: 37414.2 KB)
+0066.278 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11800 files added (on-disk size: 37414.2 KB)
+0066.281 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 11900 files added (on-disk size: 37414.2 KB)
+0066.285 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12000 files added (on-disk size: 37414.2 KB)
+0066.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 15610 files batched, 501 (12025) added so far); re-opening (prior size: 37414.2 KB)
+0069.429 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12100 files added (on-disk size: 39453.8 KB)
+0069.432 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/less/node_modules/mime/cli.js
+0069.435 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12200 files added (on-disk size: 39453.8 KB)
+0069.438 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12300 files added (on-disk size: 39453.8 KB)
+0069.443 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12400 files added (on-disk size: 39453.8 KB)
+0069.446 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12500 files added (on-disk size: 39453.8 KB)
+0069.448 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 15610 files batched, 501 (12526) added so far); re-opening (prior size: 39453.8 KB)
+0071.495 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12600 files added (on-disk size: 40381.1 KB)
+0071.500 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12700 files added (on-disk size: 40381.1 KB)
+0071.506 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12800 files added (on-disk size: 40381.1 KB)
+0071.511 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 12900 files added (on-disk size: 40381.1 KB)
+0071.516 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13000 files added (on-disk size: 40381.1 KB)
+0071.518 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 15610 files batched, 501 (13027) added so far); re-opening (prior size: 40381.1 KB)
+0072.803 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13100 files added (on-disk size: 40840.4 KB)
+0072.809 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13200 files added (on-disk size: 40840.4 KB)
+0072.815 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13300 files added (on-disk size: 40840.4 KB)
+0072.820 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13400 files added (on-disk size: 40840.4 KB)
+0072.827 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13500 files added (on-disk size: 40840.4 KB)
+0072.831 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 15610 files batched, 501 (13528) added so far); re-opening (prior size: 40840.4 KB)
+0076.428 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13600 files added (on-disk size: 41654.9 KB)
+0076.432 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13700 files added (on-disk size: 41654.9 KB)
+0076.437 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13800 files added (on-disk size: 41654.9 KB)
+0076.440 (0) File skipped due to unexpected name mismatch (locale: C): /var/www/html/cyc04641/wp-content/themes/surge-starter/node_modules/send/node_modules/mime/cli.js
+0076.441 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 13900 files added (on-disk size: 41654.9 KB)
+0076.445 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14000 files added (on-disk size: 41654.9 KB)
+0076.447 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 15610 files batched, 501 (14029) added so far); re-opening (prior size: 41654.9 KB)
+0079.752 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14100 files added (on-disk size: 42595.9 KB)
+0079.756 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14200 files added (on-disk size: 42595.9 KB)
+0079.759 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14300 files added (on-disk size: 42595.9 KB)
+0079.763 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14400 files added (on-disk size: 42595.9 KB)
+0079.766 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14500 files added (on-disk size: 42595.9 KB)
+0079.768 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 15610 files batched, 501 (14530) added so far); re-opening (prior size: 42595.9 KB)
+0081.836 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14600 files added (on-disk size: 43369.1 KB)
+0081.839 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14700 files added (on-disk size: 43369.1 KB)
+0081.842 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14800 files added (on-disk size: 43369.1 KB)
+0081.845 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 14900 files added (on-disk size: 43369.1 KB)
+0081.848 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15000 files added (on-disk size: 43369.1 KB)
+0081.850 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 15610 files batched, 501 (15031) added so far); re-opening (prior size: 43369.1 KB)
+0084.150 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15100 files added (on-disk size: 44422.5 KB)
+0084.154 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15200 files added (on-disk size: 44422.5 KB)
+0084.157 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15300 files added (on-disk size: 44422.5 KB)
+0084.161 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15400 files added (on-disk size: 44422.5 KB)
+0084.164 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15500 files added (on-disk size: 44422.5 KB)
+0084.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 15610 files batched, 501 (15532) added so far); re-opening (prior size: 44422.5 KB)
+0084.707 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip.tmp: 15600 files added (on-disk size: 45095.3 KB)
+0085.262 (0) Created themes zip (0) - 45177.8 KB in 80.2 s (563.3 KB/s) (SHA1 checksum: 3647f2cc2790f462a18c6d488a8e87c483f39248)
+0085.266 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0085.268 (0) Looking for candidates to back up in: /var/www/html/cyc04641/wp-content/uploads
+0085.282 (0) finding files: 2016: adding to list (1)
+0085.284 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0085.305 (0) Total entities for the zip file: 2 directories, 109 files (0 skipped as non-modified), 10.3 MB
+0085.308 (0) Zip: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0086.248 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-uploads.zip.tmp: size is now: 10.40 MB
+0086.307 (0) Created uploads zip (0) - 10608.9 KB in 1 s (10378.3 KB/s) (SHA1 checksum: e3a89438f0a358b49b99b127524d3aaae1a62aea)
+0086.310 (0) Beginning backup of other directories found in the content directory (index: 0)
+0086.312 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0086.313 (0) Looking for candidates to back up in: /var/www/html/cyc04641/wp-content
+0086.314 (0) finding files: updraft: skipping: this is the updraft directory
+0086.315 (0) finding files: themes: skipping: this is the themes directory
+0086.316 (0) finding files: plugins: skipping: this is the plugins directory
+0086.317 (0) finding files: uploads: skipping: this is the uploads directory
+0086.318 (0) finding files: index.php: adding to list (1)
+0086.319 (0) finding files: upgrade: skipping: excluded by options
+0086.322 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0086.350 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-others.zip.tmp: size is now: 0.00 MB
+0086.356 (0) Created others zip (0) - 0.2 KB in 0 s (5.3 KB/s) (SHA1 checksum: de55957e29344d063643e25a6186a4316e5072ba)
+0086.362 (0) Saving backup status to database (elements: 8)
+0086.365 (0) Beginning creation of database dump (WordPress DB)
+0086.367 (0) Testing: /usr/bin/mysqldump
+0086.466 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0086.474 (0) Table zs4RSPzy_options: Total expected rows (approximate): 85
+0086.504 (0) Table zs4RSPzy_options: Total rows added: 171 in 0.03 seconds
+0086.506 (0) Table zs4RSPzy_options: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_options.table.gz - 104.6 KB)
+0086.511 (0) Table zs4RSPzy_users: Total expected rows (approximate): 1
+0086.514 (0) Table zs4RSPzy_users: Total rows added: 1 in 0.00 seconds
+0086.515 (0) Table zs4RSPzy_users: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_users.table.gz - 0.6 KB)
+0086.519 (0) Table zs4RSPzy_usermeta: Total expected rows (approximate): 25
+0086.522 (0) Table zs4RSPzy_usermeta: Total rows added: 25 in 0.00 seconds
+0086.523 (0) Table zs4RSPzy_usermeta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_usermeta.table.gz - 1.3 KB)
+0086.528 (0) Table zs4RSPzy_commentmeta: Total expected rows (approximate): 0
+0086.530 (0) Table zs4RSPzy_commentmeta: Total rows added: 0 in 0.00 seconds
+0086.531 (0) Table zs4RSPzy_commentmeta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_commentmeta.table.gz - 0.4 KB)
+0086.535 (0) Table zs4RSPzy_comments: Total expected rows (approximate): 1
+0086.538 (0) Table zs4RSPzy_comments: Total rows added: 1 in 0.00 seconds
+0086.540 (0) Table zs4RSPzy_comments: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_comments.table.gz - 0.7 KB)
+0086.546 (0) Table zs4RSPzy_links: Total expected rows (approximate): 0
+0086.549 (0) Table zs4RSPzy_links: Total rows added: 0 in 0.00 seconds
+0086.550 (0) Table zs4RSPzy_links: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_links.table.gz - 0.4 KB)
+0086.556 (0) Table zs4RSPzy_postmeta: Total expected rows (approximate): 1057
+0086.580 (0) Table zs4RSPzy_postmeta: Total rows added: 915 in 0.02 seconds
+0086.582 (0) Table zs4RSPzy_postmeta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_postmeta.table.gz - 8.2 KB)
+0086.586 (0) Table zs4RSPzy_posts: Total expected rows (approximate): 88
+0086.599 (0) Table zs4RSPzy_posts: Total rows added: 94 in 0.01 seconds
+0086.601 (0) Table zs4RSPzy_posts: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_posts.table.gz - 5.4 KB)
+0086.606 (0) Table zs4RSPzy_term_relationships: Total expected rows (approximate): 4
+0086.609 (0) Table zs4RSPzy_term_relationships: Total rows added: 4 in 0.00 seconds
+0086.610 (0) Table zs4RSPzy_term_relationships: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_term_relationships.table.gz - 0.4 KB)
+0086.614 (0) Table zs4RSPzy_term_taxonomy: Total expected rows (approximate): 2
+0086.617 (0) Table zs4RSPzy_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0086.618 (0) Table zs4RSPzy_term_taxonomy: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_term_taxonomy.table.gz - 0.4 KB)
+0086.623 (0) Table zs4RSPzy_termmeta: Total expected rows (approximate): 0
+0086.625 (0) Table zs4RSPzy_termmeta: Total rows added: 0 in 0.00 seconds
+0086.626 (0) Table zs4RSPzy_termmeta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_termmeta.table.gz - 0.4 KB)
+0086.630 (0) Table zs4RSPzy_terms: Total expected rows (approximate): 2
+0086.632 (0) Table zs4RSPzy_terms: Total rows added: 2 in 0.00 seconds
+0086.634 (0) Table zs4RSPzy_terms: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_terms.table.gz - 0.4 KB)
+0086.638 (0) Table zs4RSPzy_rg_form: Total expected rows (approximate): 1
+0086.641 (0) Table zs4RSPzy_rg_form: Total rows added: 1 in 0.00 seconds
+0086.643 (0) Table zs4RSPzy_rg_form: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form.table.gz - 0.4 KB)
+0086.647 (0) Table zs4RSPzy_rg_form_meta: Total expected rows (approximate): 1
+0086.650 (0) Table zs4RSPzy_rg_form_meta: Total rows added: 1 in 0.00 seconds
+0086.652 (0) Table zs4RSPzy_rg_form_meta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form_meta.table.gz - 1 KB)
+0086.658 (0) Table zs4RSPzy_rg_form_view: Total expected rows (approximate): 6
+0086.662 (0) Table zs4RSPzy_rg_form_view: Total rows added: 6 in 0.00 seconds
+0086.663 (0) Table zs4RSPzy_rg_form_view: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form_view.table.gz - 0.5 KB)
+0086.667 (0) Table zs4RSPzy_rg_incomplete_submissions: Total expected rows (approximate): 0
+0086.670 (0) Table zs4RSPzy_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0086.672 (0) Table zs4RSPzy_rg_incomplete_submissions: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_incomplete_submissions.table.gz - 0.4 KB)
+0086.676 (0) Table zs4RSPzy_rg_lead: Total expected rows (approximate): 0
+0086.679 (0) Table zs4RSPzy_rg_lead: Total rows added: 0 in 0.00 seconds
+0086.680 (0) Table zs4RSPzy_rg_lead: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead.table.gz - 0.5 KB)
+0086.685 (0) Table zs4RSPzy_rg_lead_detail: Total expected rows (approximate): 0
+0086.687 (0) Table zs4RSPzy_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0086.689 (0) Table zs4RSPzy_rg_lead_detail: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_detail.table.gz - 0.4 KB)
+0086.693 (0) Table zs4RSPzy_rg_lead_detail_long: Total expected rows (approximate): 0
+0086.696 (0) Table zs4RSPzy_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0086.697 (0) Table zs4RSPzy_rg_lead_detail_long: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_detail_long.table.gz - 0.3 KB)
+0086.702 (0) Table zs4RSPzy_rg_lead_meta: Total expected rows (approximate): 0
+0086.705 (0) Table zs4RSPzy_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0086.706 (0) Table zs4RSPzy_rg_lead_meta: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_meta.table.gz - 0.4 KB)
+0086.710 (0) Table zs4RSPzy_rg_lead_notes: Total expected rows (approximate): 0
+0086.713 (0) Table zs4RSPzy_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0086.714 (0) Table zs4RSPzy_rg_lead_notes: finishing file (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_notes.table.gz - 0.4 KB)
+0086.718 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_options.table.gz (1/21): adding to final database dump
+0086.751 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_users.table.gz (2/21): adding to final database dump
+0086.753 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_usermeta.table.gz (3/21): adding to final database dump
+0086.755 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_commentmeta.table.gz (4/21): adding to final database dump
+0086.757 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_comments.table.gz (5/21): adding to final database dump
+0086.758 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_links.table.gz (6/21): adding to final database dump
+0086.759 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_postmeta.table.gz (7/21): adding to final database dump
+0086.767 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_posts.table.gz (8/21): adding to final database dump
+0086.770 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_term_relationships.table.gz (9/21): adding to final database dump
+0086.771 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_term_taxonomy.table.gz (10/21): adding to final database dump
+0086.773 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_termmeta.table.gz (11/21): adding to final database dump
+0086.774 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_terms.table.gz (12/21): adding to final database dump
+0086.775 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form.table.gz (13/21): adding to final database dump
+0086.776 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form_meta.table.gz (14/21): adding to final database dump
+0086.777 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_form_view.table.gz (15/21): adding to final database dump
+0086.779 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_incomplete_submissions.table.gz (16/21): adding to final database dump
+0086.781 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead.table.gz (17/21): adding to final database dump
+0086.782 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_detail.table.gz (18/21): adding to final database dump
+0086.783 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_detail_long.table.gz (19/21): adding to final database dump
+0086.784 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_meta.table.gz (20/21): adding to final database dump
+0086.785 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db-table-zs4RSPzy_rg_lead_notes.table.gz (21/21): adding to final database dump
+0086.787 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db.gz: finished writing out complete database file (104 KB)
+0086.793 (0) Total database tables backed up: 21 (backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db.gz, size: 125320, checksum (SHA1): 4a98f126e729fb85667d4977be712e767d52f045)
+0086.800 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0086.801 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0086.802 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0086.803 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-others.zip: others: This file has not yet been successfully uploaded: will queue
+0086.805 (0) backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db.gz: db: This file has not yet been successfully uploaded: will queue
+0086.806 (0) Saving backup history. Total backup size: 62.5 MB
+0086.809 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0086.812 (0) Cloud backup selection (1/1): none (last)
+0086.813 (0) No remote despatch: user chose no remote backup service
+0086.815 (0) Recording as successfully uploaded: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-plugins.zip (16ec31c87474d46fdaa9bdc1bbbf786d)
+0086.822 (0) Recording as successfully uploaded: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-themes.zip (b8c24c7d6b7f74e7fb1bb76af8d4de02)
+0086.828 (0) Recording as successfully uploaded: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-uploads.zip (a66495e7687e9ff682187fa8fddb2974)
+0086.833 (0) Recording as successfully uploaded: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-others.zip (912212a37eb244ea1bfafb8fe757d70b)
+0086.838 (0) Recording as successfully uploaded: backup_2016-04-13-0153_CYC039d_Cycling_Club_a9389196e3da-db.gz (7893b379262f20125988e33ae210c6d2)
+0086.845 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0086.847 (0) Number of backup sets in history: 1; groups (db): 1
+0086.848 (0) Examining (for databases) backup set with group_id=0, nonce=a9389196e3da, datestamp=1460512398 (Apr 13 2016 01:53:18)
+0086.849 (0) This backup set is the backup set just made, so will not be deleted.
+0086.850 (0) Number of backup sets in history: 1; groups (files): 1
+0086.851 (0) Examining (for files) backup set with nonce=a9389196e3da, datestamp=1460512398 (Apr 13 2016 01:53:18)
+0086.852 (0) This backup set is the backup set just made, so will not be deleted.
+0086.853 (0) This backup set is the backup set just made, so will not be deleted.
+0086.854 (0) This backup set is the backup set just made, so will not be deleted.
+0086.854 (0) This backup set is the backup set just made, so will not be deleted.
+0086.855 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0086.856 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0086.859 (0) Resume backup (a9389196e3da, 0): finish run
+0086.862 (0) Decremented the semaphore (fd) by 1
+0086.863 (0) Semaphore (fd) unlocked
+0086.864 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0086.868 (0) No email will/can be sent - the user has not configured an email address.
+0086.869 (0) The backup apparently succeeded and is now complete
