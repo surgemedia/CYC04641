@@ -1,7 +1,7 @@
 <?php 
 	 $vars['id'] = $vars[0];
 	 $vars['class'] = $vars[1];
-	 $vars['img'] = aq_resize($vars[2],120,180,false,true,true);
+	 $vars['img'] = $vars[2];
 	 $vars['title'] = $vars[3];
 	 $vars['blurb'] = $vars[4];
  ?>
@@ -9,6 +9,6 @@
                     <small class="col-xs-12">
                     <?php echo  $vars['blurb']; ?>
                     </small>
-                <img alt="<?php echo  $vars['title']; ?>" src="<?php echo $vars['img']; ?>">
+                <img width="120" height="auto" alt="<?php echo  $vars['title']; ?>" src="<?php echo $vars['img']; ?>">
                 </img>
             </li>

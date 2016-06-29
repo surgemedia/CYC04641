@@ -17,7 +17,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-       <nav class="nav-primary col-md-7 col-lg-7">
+       <nav class="nav-primary col-md-8 col-lg-8">
       <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
@@ -25,7 +25,9 @@
       ?>
     </nav>
      <div class="social-media pull-right">
-      <a href=""><i class="icon-facebook"></i></a>
+      <a href="https://www.instagram.com/galibiercyclingteam/"><i class="icon-instagram"></i></a>
+      <a href="https://www.instagram.com/galibiercyclingteam/"><i class="icon-facebook"></i></a>
+
       </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -9,6 +9,11 @@
  ?>
 <?php while (have_posts()) : the_post(); ?>
 <div id="hero-section" class="row">
+    <?php 
+        addComponent([
+                            'template' => 'header'
+                        ]);
+        ?>
         <?php 
             // menu in molecule/carousel
             //view gallery panel & menu
@@ -52,14 +57,24 @@
        ?>
 </div>
 <div class="row">
-<div id="ourTeam" class="bg-red">
+<?php 
+addComponent([
+                                'template' => 'molecule/content-block',
+                                'vars' => ['col-md-12 text-center hide-button',
+                                            getFeaturedUrl(get_the_id(),'large'),
+                                            get_the_content(),
+                                            get_field('content_title'),
+                                            'aboutus'
+                                            ] 
+                                ]); ?>
+<div id="ourTeam" class="bg-red container-fluid">
     <?php 
     //Title Blurb
     addComponent([
                     'template' => 'molecule/title-blurb',
                     'vars' => [
                             'ourTeamTitle',
-                            'container text-center',
+                            'container-fluid text-center',
                             get_field('red_section_title'),
                             get_field('red_section_blurb'),
                               ]
@@ -89,7 +104,7 @@
                                         get_the_title(),
                                         get_the_content(),
                                             ] 
-                                            ]);
+                            ]);
             }
         } else { /* no posts */ }
         wp_reset_postdata();
@@ -101,7 +116,7 @@
                                 'vars' => ['col-md-8 text-center',
                                             get_field('team_placeholder_image','option'),
                                             get_field('team_placeholder_blurb','option'),
-
+                                            'Join the Team'
                                             ] 
                                 ]);
                 break;
@@ -111,6 +126,8 @@
                                 'vars' => ['col-md-4 text-center',
                                              get_field('team_placeholder_image','option'),
                                             get_field('team_placeholder_blurb','option'),
+                                            'Join the Team'
+
                                             ]  
                                 ]);
                 break;
@@ -120,6 +137,8 @@
                                 'vars' => ['col-md-8 text-center',
                                              get_field('team_placeholder_image','option'),
                                             get_field('team_placeholder_blurb','option'),
+                                            'Join the Team'
+
                                             ]  
                                 ]);
                 break;
@@ -129,6 +148,8 @@
                                 'vars' => ['col-md-4 text-center',
                                              get_field('team_placeholder_image','option'),
                                             get_field('team_placeholder_blurb','option'),
+                                            'Join the Team'
+
                                             ]  
                                 ]);
                 break;
@@ -140,7 +161,7 @@
     ?>
     
 </div>
-<div class="row" style="background-image:url(<?php echo get_field('sponsor_image') ?>)">
+<div class="row" style="background-size:cover; background-image:url(<?php echo get_field('sponsor_image') ?>)">
 <section class="text-center" id="sponsors" >
     <h2>
         <?php echo get_field('sponsor_section_title') ?>
@@ -156,6 +177,7 @@
         $args = array (
             'post_type'              => array( 'sponsor' ),
             'post__in'              => get_field('sponsors'),
+            'orderby' => 'post__in'
 
         );
 

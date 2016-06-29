@@ -3,7 +3,7 @@
 	 $vars['class'] = $vars[1];
 	 $vars['img'] = aq_resize($vars[2],700,700,true,true,true);
 	 $vars['title'] = $vars[3];
-	 $vars['blurb'] = truncate($vars[4],50,'',false);
+	 $vars['blurb'] = $vars[4];
 	 $vars['link'] = $vars[5];
      //debug($vars);
 ?>

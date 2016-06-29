@@ -18,12 +18,16 @@
             <p>
             <?php echo $vars['description']; ?>
             </p>
+            <?php if(strlen($vars['link_location']) > 0){ ?>
             <a <?php if($vars['link_text2'] != NULL){ echo 'target="_blank"';} ?> class="btn view" href="<?php echo $vars['link_location']; ?>">
                <?php echo $vars['link_text']; ?>
             </a>
+             <?php }; //if link empty ?>
+            <?php if(strlen($vars['link_location2']) > 0){ ?>
             <?php if(strlen($vars['link_text2']) > 0){ ?>
              <a class="btn view" target="<?php echo $vars['target']; ?>" href="<?php echo  $vars['link_location2']; ?>">
                <?php echo $vars['link_text2']; ?>
             </a>
+             <?php }; //if link empty ?>
 			<?php } ?>
         </div>

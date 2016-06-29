@@ -4,13 +4,15 @@
 		padding-top: 1em;
 		margin-top: 0px;
 	}
-
-} 
-.social-media {
-	width:100%;
-	a {
-		i {
-			color:$white;
+}
+#hero-section {
+	#hero-text {
+		padding:0px;
+		    padding: 0;
+		    width: 88% !important;
+		    margin: 30em 0 0 2em !important;
+		h1 {
+			font-size:4em;
 		}
 	}
 }

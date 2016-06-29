@@ -6,13 +6,11 @@
   
    ?>
   <div class=" col-md-8" id="carousel" style="background-image: url(<?php echo $vars['repeater'][0]['image'] ?>)">
-    <?php addComponent([
-                            'template' => 'header'
-                        ]); ?>
+    
             <!-- Wrapper for slides -->
             <div id="hero-text">
             	<h1>
-                    <?php echo  strip_tags($vars['title'],'<br></br>'); ?>
+                    <?php echo  strip_tags(str_replace('&nbsp;','<br>',$vars['title']),'<br>'); ?>
                 </h1>
                     <a class="btn view"  data-toggle="modal" data-target=".bs-example-modal-lg" >
                         <?php echo  $vars['link_text']; ?>
