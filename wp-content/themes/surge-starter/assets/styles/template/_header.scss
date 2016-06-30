@@ -5,10 +5,10 @@
 	.navbar{
 		border-radius:0px;
 		border:0px;
-		background-color:rgba($white,0.8);
+		background-color:rgba($white,0.9);
 		//min-height: 7em;
     	//padding: 2em 0;
-		@extend .pattern;
+		//@extend .pattern;
 		ul {
 			display:inline-block;
 			color:$black;

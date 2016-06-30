@@ -197,6 +197,8 @@ addComponent([
                                             getFeaturedUrl(get_the_id()),
                                             get_the_title(),
                                             get_field('type_of_sponser'),
+                                            get_field('link'),
+
                                  ] ]); }
         } else {  }
         // Restore original Post Data

@@ -26,7 +26,7 @@
     </nav>
      <div class="social-media pull-right">
       <a href="https://www.instagram.com/galibiercyclingteam/"><i class="icon-instagram"></i></a>
-      <a href="https://www.instagram.com/galibiercyclingteam/"><i class="icon-facebook"></i></a>
+      <a href="https://www.facebook.com/Galibier-Partners-Elite-Womens-Cycling-Team-650906905084999"><i class="icon-facebook"></i></a>
 
       </div>
     </div><!-- /.navbar-collapse -->
