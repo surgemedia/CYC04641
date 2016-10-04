@@ -86,6 +86,8 @@ addComponent([
         $args = array (
             'post_type'              => array( 'people' ),
             'post__in'              => get_field('our_team'),
+            'orderby'              => 'post__in',
+
 
         );
         // The Query
